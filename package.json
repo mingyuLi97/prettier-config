@@ -1,0 +1,22 @@
+{
+  "name": "@limy/prettier-config",
+  "version": "1.0.0",
+  "description": "prettier-config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mingyuLi97/prettier-config.git"
+  },
+  "keywords": [
+    "prettier-config"
+  ],
+  "author": "limy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mingyuLi97/prettier-config/issues"
+  },
+  "homepage": "https://github.com/mingyuLi97/prettier-config#readme"
+}
