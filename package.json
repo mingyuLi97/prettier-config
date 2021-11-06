@@ -1,6 +1,7 @@
 {
-  "name": "@limy/prettier-config",
+  "name": "@limy-org/prettier-config",
   "version": "1.0.0",
+  "private": false,
   "description": "prettier-config",
   "main": "index.js",
   "scripts": {
@@ -13,6 +14,10 @@
   "keywords": [
     "prettier-config"
   ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "author": "limy",
   "license": "ISC",
   "bugs": {
