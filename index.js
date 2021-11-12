@@ -1,3 +1,10 @@
+/**
+ * @Description: prettier options
+ * @@link: https://prettier.io/docs/en/options.html
+ * @Author: 李明宇
+ * @Date: 2021-11-12 10:24:19
+ */
+
 module.exports = {
   // 80 长度自动换行
   printWidth: 80,
@@ -34,8 +41,11 @@ module.exports = {
   insertPragma: false,
   // 使用默认的折行标准
   proseWrap: 'preserve',
-  // 根据显示样式决定 html 要不要折行
-  htmlWhitespaceSensitivity: 'css',
+  /**
+   * 根据显示样式决定 html 要不要折行
+   * https://stackoverflow.com/questions/63285895/make-prettier-less-uglier-prevent-split-tags
+   */
+  htmlWhitespaceSensitivity: 'ignore',
   // 换行符使用 lf
   endOfLine: 'lf',
 };
