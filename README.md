@@ -1,4 +1,4 @@
-# @limy/prettier-config
+# @limy-org/prettier-config
 
 My personal Prettier config.
 
@@ -7,7 +7,7 @@ My personal Prettier config.
 Install:
 
 ```shell
-yarn add --dev @limy/prettier-config
+yarn add --dev @limy-org/prettier-config
 ```
 
 Edit package.json:
@@ -15,6 +15,6 @@ Edit package.json:
 ```json
 {
   // ...
-  "prettier": "@limy/prettier-config"
+  "prettier": "@limy-org/prettier-config"
 }
 ```
